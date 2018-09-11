@@ -1,6 +1,6 @@
 language: java
 
-script: ./maven clean install
+script: mvn clean install
 
 notifications:
   email: false
