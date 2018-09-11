@@ -1,0 +1,6 @@
+language: java
+
+script: ./maven clean install
+
+notifications:
+  email: false
