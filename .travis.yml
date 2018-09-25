@@ -1,6 +1,9 @@
 language: java
 
-script: mvn clean install
-
 notifications:
   email: false
+
+deploy:
+  provider: heroku
+  api_key: 68eedc68-05fb-406e-aff9-b1a6aee761b3
+  app: bmstu-rsoi-dayannn
