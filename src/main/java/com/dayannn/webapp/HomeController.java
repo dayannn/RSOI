@@ -14,7 +14,7 @@ import java.util.Map;
 @Controller
 public class HomeController {
     @RequestMapping(value = "/")
-    public String home(@RequestParam(value = "username", required = false, defaultValue = "USER") String username, ModelMap model){
+    public String home(@RequestParam(value = "username", required = false, defaultValue = "USER") String username, Map<String, Object> model){
         model.put("username", username);
         return "index";
     }

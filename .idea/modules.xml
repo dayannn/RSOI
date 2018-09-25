@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RSOI.iml" filepath="$PROJECT_DIR$/RSOI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RSOI.iml" filepath="$PROJECT_DIR$/.idea/RSOI.iml" />
     </modules>
   </component>
 </project>
