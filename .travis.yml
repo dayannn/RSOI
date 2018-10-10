@@ -3,6 +3,8 @@ language: java
 notifications:
   email: false
 
+script: mvn clean compile
+
 deploy:
   provider: heroku
   api_key: 68eedc68-05fb-406e-aff9-b1a6aee761b3

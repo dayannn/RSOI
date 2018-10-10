@@ -18,5 +18,4 @@ public class HomeController {
         model.put("username", username);
         return "index";
     }
-
 }
