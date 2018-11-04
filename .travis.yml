@@ -5,6 +5,9 @@ notifications:
 
 script: mvn clean compile
 
+after_success:
+- bash <(curl -s https://codecov.io/bash)
+
 deploy:
   provider: heroku
   api_key: 68eedc68-05fb-406e-aff9-b1a6aee761b3
